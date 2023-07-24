@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>{{title}}</h1>
+  <p>Welcome to {{title}}</p>
+  <form action="/addDiaries" method="POST">
+    <p>Скачать дневники и новости</p>
+    <input type="date" name="todayDate">
+    <input type="submit">
+  </form>
+  <form action="/postDiaries" method="POST">
+    <p>Добавить дневники и новости в вк</p>
+    <input type="date" name="todayDate">
+    <input type="number" name="addTime"> - добавить часы до последней публикации
+    <input type="submit">
+  </form>
+</div>
